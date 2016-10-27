@@ -1,0 +1,1183 @@
+fileFormatVersion: 2
+guid: 24e5b7a70bd80344b93f44d087350c0f
+timeCreated: 1477402015
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BL_Ball
+    100002: BL_Ball_Jnt
+    100004: BL_BallCylinder
+    100006: BL_End_Jnt
+    100008: BL_Foot
+    100010: BL_Foot_Ctrl
+    100012: BL_Knee
+    100014: BL_Knee_Jnt
+    100016: BL_KneeCL
+    100018: BL_KneeCR
+    100020: BL_LegGrp
+    100022: BL_Thigh
+    100024: Body
+    100026: Body_Ctrl
+    100028: BR_Ball
+    100030: BR_Ball_Jnt
+    100032: BR_BallCylinder
+    100034: BR_End_Jnt
+    100036: BR_Foot
+    100038: BR_Foot_Ctrl
+    100040: BR_Knee
+    100042: BR_Knee_Jnt
+    100044: BR_KneeCL
+    100046: BR_KneeCR
+    100048: BR_LegGrp
+    100050: BR_Thigh
+    100052: Cannon_Tube
+    100054: CannonPlastic
+    100056: Char_a_1
+    100058: Char_a_2
+    100060: Char_a_3
+    100062: Char_B_1
+    100064: Char_c_1
+    100066: Char_d_1
+    100068: Char_e_1
+    100070: Char_h_1
+    100072: Char_i_1
+    100074: Char_i_2
+    100076: Char_i_3
+    100078: Char_l_1
+    100080: Char_m_1
+    100082: Char_n_1
+    100084: Char_o_1
+    100086: Char_o_2
+    100088: Char_p_1
+    100090: Char_p_2
+    100092: Char_r_1
+    100094: Char_S_1
+    100096: Char_t_1
+    100098: Char_t_2
+    100100: Char_t_3
+    100102: Char_t_4
+    100104: Char_x_1
+    100106: Char_x_2
+    100108: Char_x_3
+    100110: Char_x_4
+    100112: curve1
+    100114: curve10
+    100116: curve11
+    100118: curve12
+    100120: curve13
+    100122: curve14
+    100124: curve15
+    100126: curve16
+    100128: curve17
+    100130: curve18
+    100132: curve19
+    100134: curve2
+    100136: curve20
+    100138: curve21
+    100140: curve22
+    100142: curve23
+    100144: curve24
+    100146: curve25
+    100148: curve26
+    100150: curve27
+    100152: curve28
+    100154: curve29
+    100156: curve3
+    100158: curve30
+    100160: curve31
+    100162: curve32
+    100164: curve33
+    100166: curve34
+    100168: curve35
+    100170: curve36
+    100172: curve37
+    100174: curve38
+    100176: curve39
+    100178: curve4
+    100180: curve40
+    100182: curve41
+    100184: curve42
+    100186: curve43
+    100188: curve44
+    100190: curve5
+    100192: curve6
+    100194: curve7
+    100196: curve8
+    100198: curve9
+    100200: Engine_Door
+    100202: EngineScwGrp
+    100204: Eye_Ctrl
+    100206: Eyeball
+    100208: ffd1LatticeGroup
+    100210: ffd2LatticeGroup
+    100212: ffd3LatticeGroup
+    100214: FL_Ball
+    100216: FL_Ball_Jnt
+    100218: FL_BallCylinder
+    100220: FL_End_Jnt
+    100222: FL_Foot
+    100224: FL_Foot_Ctrl
+    100226: FL_Knee
+    100228: FL_Knee_Jnt
+    100230: FL_KneeCL
+    100232: FL_KneeCR
+    100234: FL_LegGrp
+    100236: FL_Thigh
+    100238: flare1Handle
+    100240: FR_Ball
+    100242: FR_Ball_Jnt
+    100244: FR_BallCylinder
+    100246: FR_End_Jnt
+    100248: FR_Foot
+    100250: FR_Foot_Ctrl
+    100252: FR_Knee
+    100254: FR_Knee_Jnt
+    100256: FR_KneeCL
+    100258: FR_KneeCR
+    100260: FR_LegGrp
+    100262: FR_Thigh
+    100264: greasePencilSideArtDrawPlane
+    100266: greasePencilSideRenderPlane
+    100268: Handle
+    100270: Handle1
+    100272: HatchInnerCircle
+    100274: HatchLoft
+    100276: HatchOuterCircle
+    100278: Head_Ctrl
+    100280: Head_Eye
+    100282: ikHandle1
+    100284: ikHandle2
+    100286: ikHandle3
+    100288: ikHandle4
+    100290: joint1
+    100292: joint2
+    100294: joint3
+    100296: //RootNode
+    100298: Screw
+    100300: Screw1
+    100302: Screw10
+    100304: Screw11
+    100306: Screw12
+    100308: Screw13
+    100310: Screw14
+    100312: Screw15
+    100314: Screw16
+    100316: Screw17
+    100318: Screw18
+    100320: Screw19
+    100322: Screw2
+    100324: Screw20
+    100326: Screw21
+    100328: Screw22
+    100330: Screw23
+    100332: Screw24
+    100334: Screw25
+    100336: Screw26
+    100338: Screw27
+    100340: Screw28
+    100342: Screw29
+    100344: Screw3
+    100346: Screw30
+    100348: Screw31
+    100350: Screw32
+    100352: Screw33
+    100354: Screw34
+    100356: Screw35
+    100358: Screw36
+    100360: Screw37
+    100362: Screw38
+    100364: Screw4
+    100366: Screw5
+    100368: Screw6
+    100370: Screw7
+    100372: Screw8
+    100374: Screw9
+    100376: ScrewsGrp
+    100378: SpiderBot_Positioning
+    100380: sunDirection
+    100382: Text_httpxxxalimationxca_1
+    100384: Text_SpiderBot_1
+    100386: Top_Head
+    100388: Turret_Ctrl
+    400000: BL_Ball
+    400002: BL_Ball_Jnt
+    400004: BL_BallCylinder
+    400006: BL_End_Jnt
+    400008: BL_Foot
+    400010: BL_Foot_Ctrl
+    400012: BL_Knee
+    400014: BL_Knee_Jnt
+    400016: BL_KneeCL
+    400018: BL_KneeCR
+    400020: BL_LegGrp
+    400022: BL_Thigh
+    400024: Body
+    400026: Body_Ctrl
+    400028: BR_Ball
+    400030: BR_Ball_Jnt
+    400032: BR_BallCylinder
+    400034: BR_End_Jnt
+    400036: BR_Foot
+    400038: BR_Foot_Ctrl
+    400040: BR_Knee
+    400042: BR_Knee_Jnt
+    400044: BR_KneeCL
+    400046: BR_KneeCR
+    400048: BR_LegGrp
+    400050: BR_Thigh
+    400052: Cannon_Tube
+    400054: CannonPlastic
+    400056: Char_a_1
+    400058: Char_a_2
+    400060: Char_a_3
+    400062: Char_B_1
+    400064: Char_c_1
+    400066: Char_d_1
+    400068: Char_e_1
+    400070: Char_h_1
+    400072: Char_i_1
+    400074: Char_i_2
+    400076: Char_i_3
+    400078: Char_l_1
+    400080: Char_m_1
+    400082: Char_n_1
+    400084: Char_o_1
+    400086: Char_o_2
+    400088: Char_p_1
+    400090: Char_p_2
+    400092: Char_r_1
+    400094: Char_S_1
+    400096: Char_t_1
+    400098: Char_t_2
+    400100: Char_t_3
+    400102: Char_t_4
+    400104: Char_x_1
+    400106: Char_x_2
+    400108: Char_x_3
+    400110: Char_x_4
+    400112: curve1
+    400114: curve10
+    400116: curve11
+    400118: curve12
+    400120: curve13
+    400122: curve14
+    400124: curve15
+    400126: curve16
+    400128: curve17
+    400130: curve18
+    400132: curve19
+    400134: curve2
+    400136: curve20
+    400138: curve21
+    400140: curve22
+    400142: curve23
+    400144: curve24
+    400146: curve25
+    400148: curve26
+    400150: curve27
+    400152: curve28
+    400154: curve29
+    400156: curve3
+    400158: curve30
+    400160: curve31
+    400162: curve32
+    400164: curve33
+    400166: curve34
+    400168: curve35
+    400170: curve36
+    400172: curve37
+    400174: curve38
+    400176: curve39
+    400178: curve4
+    400180: curve40
+    400182: curve41
+    400184: curve42
+    400186: curve43
+    400188: curve44
+    400190: curve5
+    400192: curve6
+    400194: curve7
+    400196: curve8
+    400198: curve9
+    400200: Engine_Door
+    400202: EngineScwGrp
+    400204: Eye_Ctrl
+    400206: Eyeball
+    400208: ffd1LatticeGroup
+    400210: ffd2LatticeGroup
+    400212: ffd3LatticeGroup
+    400214: FL_Ball
+    400216: FL_Ball_Jnt
+    400218: FL_BallCylinder
+    400220: FL_End_Jnt
+    400222: FL_Foot
+    400224: FL_Foot_Ctrl
+    400226: FL_Knee
+    400228: FL_Knee_Jnt
+    400230: FL_KneeCL
+    400232: FL_KneeCR
+    400234: FL_LegGrp
+    400236: FL_Thigh
+    400238: flare1Handle
+    400240: FR_Ball
+    400242: FR_Ball_Jnt
+    400244: FR_BallCylinder
+    400246: FR_End_Jnt
+    400248: FR_Foot
+    400250: FR_Foot_Ctrl
+    400252: FR_Knee
+    400254: FR_Knee_Jnt
+    400256: FR_KneeCL
+    400258: FR_KneeCR
+    400260: FR_LegGrp
+    400262: FR_Thigh
+    400264: greasePencilSideArtDrawPlane
+    400266: greasePencilSideRenderPlane
+    400268: Handle
+    400270: Handle1
+    400272: HatchInnerCircle
+    400274: HatchLoft
+    400276: HatchOuterCircle
+    400278: Head_Ctrl
+    400280: Head_Eye
+    400282: ikHandle1
+    400284: ikHandle2
+    400286: ikHandle3
+    400288: ikHandle4
+    400290: joint1
+    400292: joint2
+    400294: joint3
+    400296: //RootNode
+    400298: Screw
+    400300: Screw1
+    400302: Screw10
+    400304: Screw11
+    400306: Screw12
+    400308: Screw13
+    400310: Screw14
+    400312: Screw15
+    400314: Screw16
+    400316: Screw17
+    400318: Screw18
+    400320: Screw19
+    400322: Screw2
+    400324: Screw20
+    400326: Screw21
+    400328: Screw22
+    400330: Screw23
+    400332: Screw24
+    400334: Screw25
+    400336: Screw26
+    400338: Screw27
+    400340: Screw28
+    400342: Screw29
+    400344: Screw3
+    400346: Screw30
+    400348: Screw31
+    400350: Screw32
+    400352: Screw33
+    400354: Screw34
+    400356: Screw35
+    400358: Screw36
+    400360: Screw37
+    400362: Screw38
+    400364: Screw4
+    400366: Screw5
+    400368: Screw6
+    400370: Screw7
+    400372: Screw8
+    400374: Screw9
+    400376: ScrewsGrp
+    400378: SpiderBot_Positioning
+    400380: sunDirection
+    400382: Text_httpxxxalimationxca_1
+    400384: Text_SpiderBot_1
+    400386: Top_Head
+    400388: Turret_Ctrl
+    2300000: BL_Ball
+    2300002: BL_BallCylinder
+    2300004: BL_Foot
+    2300006: BL_Knee
+    2300008: BL_KneeCL
+    2300010: BL_KneeCR
+    2300012: BL_Thigh
+    2300014: Body
+    2300016: BR_Ball
+    2300018: BR_BallCylinder
+    2300020: BR_Foot
+    2300022: BR_Knee
+    2300024: BR_KneeCL
+    2300026: BR_KneeCR
+    2300028: BR_Thigh
+    2300030: Cannon_Tube
+    2300032: Engine_Door
+    2300034: Eyeball
+    2300036: FL_Ball
+    2300038: FL_BallCylinder
+    2300040: FL_Foot
+    2300042: FL_Knee
+    2300044: FL_KneeCL
+    2300046: FL_KneeCR
+    2300048: FL_Thigh
+    2300050: FR_Ball
+    2300052: FR_BallCylinder
+    2300054: FR_Foot
+    2300056: FR_Knee
+    2300058: FR_KneeCL
+    2300060: FR_KneeCR
+    2300062: FR_Thigh
+    2300064: Handle
+    2300066: Handle1
+    2300068: Head_Eye
+    2300070: Screw
+    2300072: Screw1
+    2300074: Screw10
+    2300076: Screw11
+    2300078: Screw12
+    2300080: Screw13
+    2300082: Screw14
+    2300084: Screw15
+    2300086: Screw16
+    2300088: Screw17
+    2300090: Screw18
+    2300092: Screw19
+    2300094: Screw2
+    2300096: Screw20
+    2300098: Screw21
+    2300100: Screw22
+    2300102: Screw23
+    2300104: Screw24
+    2300106: Screw25
+    2300108: Screw26
+    2300110: Screw27
+    2300112: Screw28
+    2300114: Screw29
+    2300116: Screw3
+    2300118: Screw30
+    2300120: Screw31
+    2300122: Screw32
+    2300124: Screw33
+    2300126: Screw34
+    2300128: Screw35
+    2300130: Screw36
+    2300132: Screw37
+    2300134: Screw38
+    2300136: Screw4
+    2300138: Screw5
+    2300140: Screw6
+    2300142: Screw7
+    2300144: Screw8
+    2300146: Screw9
+    2300148: Top_Head
+    3300000: BL_Ball
+    3300002: BL_BallCylinder
+    3300004: BL_Foot
+    3300006: BL_Knee
+    3300008: BL_KneeCL
+    3300010: BL_KneeCR
+    3300012: BL_Thigh
+    3300014: Body
+    3300016: BR_Ball
+    3300018: BR_BallCylinder
+    3300020: BR_Foot
+    3300022: BR_Knee
+    3300024: BR_KneeCL
+    3300026: BR_KneeCR
+    3300028: BR_Thigh
+    3300030: Cannon_Tube
+    3300032: Engine_Door
+    3300034: Eyeball
+    3300036: FL_Ball
+    3300038: FL_BallCylinder
+    3300040: FL_Foot
+    3300042: FL_Knee
+    3300044: FL_KneeCL
+    3300046: FL_KneeCR
+    3300048: FL_Thigh
+    3300050: FR_Ball
+    3300052: FR_BallCylinder
+    3300054: FR_Foot
+    3300056: FR_Knee
+    3300058: FR_KneeCL
+    3300060: FR_KneeCR
+    3300062: FR_Thigh
+    3300064: Handle
+    3300066: Handle1
+    3300068: Head_Eye
+    3300070: Screw
+    3300072: Screw1
+    3300074: Screw10
+    3300076: Screw11
+    3300078: Screw12
+    3300080: Screw13
+    3300082: Screw14
+    3300084: Screw15
+    3300086: Screw16
+    3300088: Screw17
+    3300090: Screw18
+    3300092: Screw19
+    3300094: Screw2
+    3300096: Screw20
+    3300098: Screw21
+    3300100: Screw22
+    3300102: Screw23
+    3300104: Screw24
+    3300106: Screw25
+    3300108: Screw26
+    3300110: Screw27
+    3300112: Screw28
+    3300114: Screw29
+    3300116: Screw3
+    3300118: Screw30
+    3300120: Screw31
+    3300122: Screw32
+    3300124: Screw33
+    3300126: Screw34
+    3300128: Screw35
+    3300130: Screw36
+    3300132: Screw37
+    3300134: Screw38
+    3300136: Screw4
+    3300138: Screw5
+    3300140: Screw6
+    3300142: Screw7
+    3300144: Screw8
+    3300146: Screw9
+    3300148: Top_Head
+    4300000: Body
+    4300002: Engine_Door
+    4300004: Screw
+    4300006: Screw1
+    4300008: Screw2
+    4300010: Handle1
+    4300012: Handle
+    4300014: Screw3
+    4300016: Screw4
+    4300018: Screw5
+    4300020: Screw6
+    4300022: Screw7
+    4300024: Screw8
+    4300026: Screw9
+    4300028: Screw10
+    4300030: Screw11
+    4300032: Screw12
+    4300034: Screw13
+    4300036: Screw14
+    4300038: Screw15
+    4300040: Screw16
+    4300042: Screw17
+    4300044: Screw18
+    4300046: Screw19
+    4300048: Screw20
+    4300050: Screw21
+    4300052: Screw22
+    4300054: Screw23
+    4300056: Screw24
+    4300058: Screw25
+    4300060: Screw26
+    4300062: Screw27
+    4300064: Screw28
+    4300066: Screw29
+    4300068: Screw30
+    4300070: Screw31
+    4300072: Screw32
+    4300074: Screw33
+    4300076: Screw34
+    4300078: Screw35
+    4300080: Screw36
+    4300082: Screw37
+    4300084: Screw38
+    4300086: Head_Eye
+    4300088: Eyeball
+    4300090: Top_Head
+    4300092: Cannon_Tube
+    4300094: FR_KneeCL
+    4300096: FR_Knee
+    4300098: FR_KneeCR
+    4300100: FR_Foot
+    4300102: FR_Ball
+    4300104: FR_Thigh
+    4300106: FR_BallCylinder
+    4300108: BR_KneeCL
+    4300110: BR_Knee
+    4300112: BR_KneeCR
+    4300114: BR_Foot
+    4300116: BR_Ball
+    4300118: BR_Thigh
+    4300120: BR_BallCylinder
+    4300122: BL_KneeCL
+    4300124: BL_Knee
+    4300126: BL_KneeCR
+    4300128: BL_Foot
+    4300130: BL_Ball
+    4300132: BL_Thigh
+    4300134: BL_BallCylinder
+    4300136: FL_KneeCR
+    4300138: FL_Knee
+    4300140: FL_KneeCL
+    4300142: FL_Foot
+    4300144: FL_Ball
+    4300146: FL_Thigh
+    4300148: FL_BallCylinder
+    4300150: CannonPlastic
+    6400000: BL_Ball
+    6400002: BL_BallCylinder
+    6400004: BL_Foot
+    6400006: BL_Knee
+    6400008: BL_KneeCL
+    6400010: BL_KneeCR
+    6400012: BL_Thigh
+    6400014: Body
+    6400016: BR_Ball
+    6400018: BR_BallCylinder
+    6400020: BR_Foot
+    6400022: BR_Knee
+    6400024: BR_KneeCL
+    6400026: BR_KneeCR
+    6400028: BR_Thigh
+    6400030: Cannon_Tube
+    6400032: Engine_Door
+    6400034: Eyeball
+    6400036: FL_Ball
+    6400038: FL_BallCylinder
+    6400040: FL_Foot
+    6400042: FL_Knee
+    6400044: FL_KneeCL
+    6400046: FL_KneeCR
+    6400048: FL_Thigh
+    6400050: FR_Ball
+    6400052: FR_BallCylinder
+    6400054: FR_Foot
+    6400056: FR_Knee
+    6400058: FR_KneeCL
+    6400060: FR_KneeCR
+    6400062: FR_Thigh
+    6400064: Handle
+    6400066: Handle1
+    6400068: Head_Eye
+    6400070: Screw
+    6400072: Screw1
+    6400074: Screw10
+    6400076: Screw11
+    6400078: Screw12
+    6400080: Screw13
+    6400082: Screw14
+    6400084: Screw15
+    6400086: Screw16
+    6400088: Screw17
+    6400090: Screw18
+    6400092: Screw19
+    6400094: Screw2
+    6400096: Screw20
+    6400098: Screw21
+    6400100: Screw22
+    6400102: Screw23
+    6400104: Screw24
+    6400106: Screw25
+    6400108: Screw26
+    6400110: Screw27
+    6400112: Screw28
+    6400114: Screw29
+    6400116: Screw3
+    6400118: Screw30
+    6400120: Screw31
+    6400122: Screw32
+    6400124: Screw33
+    6400126: Screw34
+    6400128: Screw35
+    6400130: Screw36
+    6400132: Screw37
+    6400134: Screw38
+    6400136: Screw4
+    6400138: Screw5
+    6400140: Screw6
+    6400142: Screw7
+    6400144: Screw8
+    6400146: Screw9
+    6400148: Top_Head
+    7400000: Salto
+    9500000: //RootNode
+    13700000: CannonPlastic
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Salto
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BL_LegGrp
+        weight: 1
+      - path: BR_LegGrp
+        weight: 1
+      - path: CannonPlastic
+        weight: 1
+      - path: ffd1LatticeGroup
+        weight: 1
+      - path: ffd2LatticeGroup
+        weight: 1
+      - path: ffd3LatticeGroup
+        weight: 1
+      - path: FL_LegGrp
+        weight: 1
+      - path: FR_LegGrp
+        weight: 1
+      - path: greasePencilSideArtDrawPlane
+        weight: 1
+      - path: greasePencilSideRenderPlane
+        weight: 1
+      - path: HatchLoft
+        weight: 1
+      - path: SpiderBot_Positioning
+        weight: 1
+      - path: SpiderBot_Positioning/BL_Foot_Ctrl
+        weight: 1
+      - path: SpiderBot_Positioning/BL_Foot_Ctrl/ikHandle2
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/BL_Ball_Jnt
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/BL_Ball_Jnt/BL_Ball
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/BL_Ball_Jnt/BL_BallCylinder
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/BL_Ball_Jnt/BL_Knee_Jnt
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/BL_Ball_Jnt/BL_Knee_Jnt/BL_End_Jnt
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/BL_Ball_Jnt/BL_Knee_Jnt/BL_Foot
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/BL_Ball_Jnt/BL_Knee_Jnt/BL_Knee
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/BL_Ball_Jnt/BL_Knee_Jnt/BL_KneeCL
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/BL_Ball_Jnt/BL_Knee_Jnt/BL_KneeCR
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/BL_Ball_Jnt/BL_Thigh
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/Engine_Door
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/Engine_Door/EngineScwGrp
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/Engine_Door/EngineScwGrp/Screw
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/Engine_Door/EngineScwGrp/Screw1
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/Engine_Door/EngineScwGrp/Screw2
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/Engine_Door/Handle
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/Engine_Door/Handle1
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw3
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw4
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw5
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw6
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw7
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw8
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw9
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw10
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw11
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw12
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw13
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw14
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw15
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw16
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw17
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw18
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw19
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw20
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw21
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw22
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw23
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw24
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw25
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw26
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw27
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw28
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw29
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw30
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw31
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw32
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw33
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw34
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw35
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw36
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw37
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Body/ScrewsGrp/Screw38
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/BR_Ball_Jnt
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/BR_Ball_Jnt/BR_Ball
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/BR_Ball_Jnt/BR_BallCylinder
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/BR_Ball_Jnt/BR_Knee_Jnt
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/BR_Ball_Jnt/BR_Knee_Jnt/BR_End_Jnt
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/BR_Ball_Jnt/BR_Knee_Jnt/BR_Foot
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/BR_Ball_Jnt/BR_Knee_Jnt/BR_Knee
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/BR_Ball_Jnt/BR_Knee_Jnt/BR_KneeCL
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/BR_Ball_Jnt/BR_Knee_Jnt/BR_KneeCR
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/BR_Ball_Jnt/BR_Thigh
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/FL_Ball_Jnt
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/FL_Ball_Jnt/FL_Ball
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/FL_Ball_Jnt/FL_BallCylinder
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/FL_Ball_Jnt/FL_Knee_Jnt
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/FL_Ball_Jnt/FL_Knee_Jnt/FL_End_Jnt
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/FL_Ball_Jnt/FL_Knee_Jnt/FL_Foot
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/FL_Ball_Jnt/FL_Knee_Jnt/FL_Knee
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/FL_Ball_Jnt/FL_Knee_Jnt/FL_KneeCL
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/FL_Ball_Jnt/FL_Knee_Jnt/FL_KneeCR
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/FL_Ball_Jnt/FL_Thigh
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/FR_Ball_Jnt
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/FR_Ball_Jnt/FR_Ball
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/FR_Ball_Jnt/FR_BallCylinder
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/FR_Ball_Jnt/FR_Knee_Jnt
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/FR_Ball_Jnt/FR_Knee_Jnt/FR_End_Jnt
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/FR_Ball_Jnt/FR_Knee_Jnt/FR_Foot
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/FR_Ball_Jnt/FR_Knee_Jnt/FR_Knee
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/FR_Ball_Jnt/FR_Knee_Jnt/FR_KneeCL
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/FR_Ball_Jnt/FR_Knee_Jnt/FR_KneeCR
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/FR_Ball_Jnt/FR_Thigh
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/HatchInnerCircle
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/HatchOuterCircle
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Head_Ctrl
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Head_Ctrl/Eye_Ctrl
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Head_Ctrl/Eyeball
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Head_Ctrl/Head_Eye
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Head_Ctrl/Turret_Ctrl
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Head_Ctrl/Turret_Ctrl/joint1
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Head_Ctrl/Turret_Ctrl/joint1/flare1Handle
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Head_Ctrl/Turret_Ctrl/joint1/joint2
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Head_Ctrl/Turret_Ctrl/joint1/joint2/Cannon_Tube
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Head_Ctrl/Turret_Ctrl/joint1/joint2/joint3
+        weight: 1
+      - path: SpiderBot_Positioning/Body_Ctrl/Head_Ctrl/Turret_Ctrl/Top_Head
+        weight: 1
+      - path: SpiderBot_Positioning/BR_Foot_Ctrl
+        weight: 1
+      - path: SpiderBot_Positioning/BR_Foot_Ctrl/ikHandle3
+        weight: 1
+      - path: SpiderBot_Positioning/FL_Foot_Ctrl
+        weight: 1
+      - path: SpiderBot_Positioning/FL_Foot_Ctrl/ikHandle1
+        weight: 1
+      - path: SpiderBot_Positioning/FR_Foot_Ctrl
+        weight: 1
+      - path: SpiderBot_Positioning/FR_Foot_Ctrl/ikHandle4
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_a_1
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_a_1/curve27
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_a_1/curve28
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_a_2
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_a_2/curve33
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_a_2/curve34
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_a_3
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_a_3/curve43
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_a_3/curve44
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_c_1
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_c_1/curve42
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_h_1
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_h_1/curve18
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_i_2
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_i_2/curve30
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_i_2/curve31
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_i_3
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_i_3/curve36
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_i_3/curve37
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_l_1
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_l_1/curve29
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_m_1
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_m_1/curve32
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_n_1
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_n_1/curve40
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_o_2
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_o_2/curve38
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_o_2/curve39
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_p_2
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_p_2/curve21
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_p_2/curve22
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_t_2
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_t_2/curve19
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_t_3
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_t_3/curve20
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_t_4
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_t_4/curve35
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_x_1
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_x_1/curve23
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_x_1/curve24
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_x_2
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_x_2/curve25
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_x_3
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_x_3/curve26
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_x_4
+        weight: 1
+      - path: SpiderBot_Positioning/Text_httpxxxalimationxca_1/Char_x_4/curve41
+        weight: 1
+      - path: SpiderBot_Positioning/Text_SpiderBot_1
+        weight: 1
+      - path: SpiderBot_Positioning/Text_SpiderBot_1/Char_B_1
+        weight: 1
+      - path: SpiderBot_Positioning/Text_SpiderBot_1/Char_B_1/curve12
+        weight: 1
+      - path: SpiderBot_Positioning/Text_SpiderBot_1/Char_B_1/curve13
+        weight: 1
+      - path: SpiderBot_Positioning/Text_SpiderBot_1/Char_B_1/curve14
+        weight: 1
+      - path: SpiderBot_Positioning/Text_SpiderBot_1/Char_d_1
+        weight: 1
+      - path: SpiderBot_Positioning/Text_SpiderBot_1/Char_d_1/curve6
+        weight: 1
+      - path: SpiderBot_Positioning/Text_SpiderBot_1/Char_d_1/curve7
+        weight: 1
+      - path: SpiderBot_Positioning/Text_SpiderBot_1/Char_e_1
+        weight: 1
+      - path: SpiderBot_Positioning/Text_SpiderBot_1/Char_e_1/curve8
+        weight: 1
+      - path: SpiderBot_Positioning/Text_SpiderBot_1/Char_e_1/curve9
+        weight: 1
+      - path: SpiderBot_Positioning/Text_SpiderBot_1/Char_i_1
+        weight: 1
+      - path: SpiderBot_Positioning/Text_SpiderBot_1/Char_i_1/curve4
+        weight: 1
+      - path: SpiderBot_Positioning/Text_SpiderBot_1/Char_i_1/curve5
+        weight: 1
+      - path: SpiderBot_Positioning/Text_SpiderBot_1/Char_o_1
+        weight: 1
+      - path: SpiderBot_Positioning/Text_SpiderBot_1/Char_o_1/curve15
+        weight: 1
+      - path: SpiderBot_Positioning/Text_SpiderBot_1/Char_o_1/curve16
+        weight: 1
+      - path: SpiderBot_Positioning/Text_SpiderBot_1/Char_p_1
+        weight: 1
+      - path: SpiderBot_Positioning/Text_SpiderBot_1/Char_p_1/curve2
+        weight: 1
+      - path: SpiderBot_Positioning/Text_SpiderBot_1/Char_p_1/curve3
+        weight: 1
+      - path: SpiderBot_Positioning/Text_SpiderBot_1/Char_r_1
+        weight: 1
+      - path: SpiderBot_Positioning/Text_SpiderBot_1/Char_r_1/curve10
+        weight: 1
+      - path: SpiderBot_Positioning/Text_SpiderBot_1/Char_r_1/curve11
+        weight: 1
+      - path: SpiderBot_Positioning/Text_SpiderBot_1/Char_S_1
+        weight: 1
+      - path: SpiderBot_Positioning/Text_SpiderBot_1/Char_S_1/curve1
+        weight: 1
+      - path: SpiderBot_Positioning/Text_SpiderBot_1/Char_t_1
+        weight: 1
+      - path: SpiderBot_Positioning/Text_SpiderBot_1/Char_t_1/curve17
+        weight: 1
+      - path: sunDirection
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
